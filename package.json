@@ -1,5 +1,5 @@
 {
-  "name": "awesomeghprb",
+  "name": "awesome-ghprb",
   "version": "0.0.1",
   "description": "AwesomeCI GitHub Pull Request Builder",
   "main": "plugin.js",
