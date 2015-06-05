@@ -1,0 +1,25 @@
+{
+  "name": "awesomeghprb",
+  "version": "0.0.1",
+  "description": "AwesomeCI GitHub Pull Request Builder",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AwesomeCI/AwesomeGhprb.git"
+  },
+  "keywords": [
+    "awesome",
+    "ci",
+    "github",
+    "ghprb"
+  ],
+  "author": "Ryan Copley <npm@ryancopley.com> (http://github.com/RyanCopley)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AwesomeCI/AwesomeGhprb/issues"
+  },
+  "homepage": "https://github.com/AwesomeCI/AwesomeGhprb#readme"
+}
