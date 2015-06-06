@@ -36,7 +36,7 @@ GithubPullRequestBuilder.prototype.menu = function (){
     return {
         "icon" : "ti-github",
         "text" : "Github Pull Request Builder",
-        "href" : "/ghprb/"
+        "href" : "/ghprb/",
         "submenu" : [
             {
                 "icon" : "",
