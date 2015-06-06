@@ -1,6 +1,6 @@
 {
   "name": "awesome-github",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AwesomeCI GitHub API",
   "main": "plugin.js",
   "scripts": {

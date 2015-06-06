@@ -1,50 +1,27 @@
 'use strict';
 
-var GithubPullRequestBuilder = function(){
+var GithubAPI = function(){
 
 };
 
-GithubPullRequestBuilder.prototype.slug = function (){
-    return "ghprb";
+GithubAPI.prototype.slug = function (){
+    return "github";
 };
 
-GithubPullRequestBuilder.prototype.name = function (){
-    return "Github Pull Request Builder";
+GithubAPI.prototype.name = function (){
+    return "Github API";
 };
 
-GithubPullRequestBuilder.prototype.middleware = function (req, res, next){
+GithubAPI.prototype.middleware = function (req, res, next){
     next();
 };
 
 
-GithubPullRequestBuilder.prototype.router = function (router){
-    router.get("/webhook/", function (req, res){
-        res.json({
-            error : false,
-            route : "get webhook"
-        });
-    });
-    router.post("/webhook/", function (req, res){
-        res.json({
-            error : false,
-            route : "post webhook"
-        });
-    });
+GithubAPI.prototype.router = function (router){
 };
 
-GithubPullRequestBuilder.prototype.menu = function (){
-    return {
-        "icon" : "ti-github",
-        "text" : "Github Pull Request Builder",
-        "href" : "/ghprb/",
-        "submenu" : [
-            {
-                "icon" : "",
-                "text" : "Configure",
-                "href" : "/ghprb/configure"
-            }
-        ]
-    };
+GithubAPI.prototype.menu = function (){
+    return null;
 };
 
-module.exports = GithubPullRequestBuilder;
+module.exports = GithubAPI;
