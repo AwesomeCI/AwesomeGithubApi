@@ -47,4 +47,4 @@ GithubPullRequestBuilder.prototype.menu = function (){
     };
 };
 
-module.exports = ghpGithubPullRequestBuilderrb;
+module.exports = GithubPullRequestBuilder;
