@@ -1,6 +1,6 @@
 {
-  "name": "awesome-github",
-  "version": "0.0.2",
+  "name": "awesome-github-api",
+  "version": "0.0.1",
   "description": "AwesomeCI GitHub API",
   "main": "plugin.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AwesomeCI/AwesomeGithub.git"
+    "url": "git+https://github.com/AwesomeCI/AwesomeGithubApi.git"
   },
   "keywords": [
     "awesome",
@@ -19,7 +19,10 @@
   "author": "Ryan Copley <npm@ryancopley.com> (http://github.com/RyanCopley)",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/AwesomeCI/AwesomeGithub/issues"
+    "url": "https://github.com/AwesomeCI/AwesomeGithubApi/issues"
   },
-  "homepage": "https://github.com/AwesomeCI/AwesomeGithub#readme"
+  "homepage": "https://github.com/AwesomeCI/AwesomeGithubApi#readme",
+  "dependencies": {
+    "github": "^0.2.4"
+  }
 }

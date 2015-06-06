@@ -1,4 +1,5 @@
 'use strict';
+var github = require("github");
 
 var GithubAPI = function(){
 
